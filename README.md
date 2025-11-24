@@ -50,5 +50,5 @@ Install the stuff:
 xargs -a ~/flatpak_list.txt flatpak install -y flathub
 ```
 
-### Step 5: Reboot and enjoy!
+### Step 6: Reboot and enjoy!
 
