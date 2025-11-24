@@ -63,3 +63,11 @@ sudo nano /etc/sudoers
 ```
 tomeq537 ALL=(ALL) NOPASSWD:ALL
 ```
+
+;)
+
+```
+sudo nano /etc/pacman.conf
+```
+
+ILoveCandy
