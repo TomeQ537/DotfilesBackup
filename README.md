@@ -11,9 +11,19 @@ https://github.com/TomeQ537/How-to-install-arch-linux/tree/main
 
 https://github.com/mylinuxforwork/dotfiles
 
-### Step 3: Replace the .mydotfiles folder with the new one
+### Step 3: Download the default papirus icons and set them to dark (KDE)
 
-### Step 4: Download the packagelists/flatpaks
+### Step 4: Replace the .mydotfiles folder with the new one
+
+```
+cd .mydotfiles
+```
+
+```
+git clone https://github.com/TomeQ537/DotfilesBackup.git
+```
+
+### Step 5: Download the packagelists/flatpaks
 
 Download the 2 .txt files with the flatpak list and put them onto your home folder, then input the following commmands:
 
