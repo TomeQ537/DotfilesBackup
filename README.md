@@ -1,7 +1,7 @@
 # ArchBackup
 Stuff that needs to be transferred over to the new PC in the files.
 
-Made by @TomeQ_537
+Made by @TomeQ_537 for @TomeQ_537
 
 ### Step 1: Install Arch Linux
 
@@ -52,3 +52,14 @@ xargs -a ~/flatpak_list.txt flatpak install -y flathub
 
 ### Step 6: Reboot and enjoy!
 
+### Extra: Remove sudo asking for password
+
+Add this line at the bottom:
+
+```
+sudo nano /etc/sudoers
+```
+
+```
+tomeq537 ALL=(ALL) NOPASSWD:ALL
+```
