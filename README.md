@@ -15,6 +15,8 @@ https://github.com/mylinuxforwork/dotfiles
 
 ### Step 4: Replace the .mydotfiles folder with the new one
 
+After you clone the folder, you can just delete the old folder and move the new folder replacing the old one.
+
 ```
 cd .mydotfiles
 ```
