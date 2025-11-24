@@ -27,7 +27,7 @@ git clone https://github.com/TomeQ537/DotfilesBackup.git
 
 ### Step 5: Download the packagelists/flatpaks
 
-Download the 2 .txt files with the flatpak list and put them onto your home folder, then input the following commmands:
+Download the .txt files and put them onto your home folder, then input the following commmands:
 
 ```
 sudo pacman -S --needed - < ~/pacman_list.txt
