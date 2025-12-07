@@ -25,18 +25,7 @@ cd .mydotfiles
 git clone https://github.com/TomeQ537/DotfilesBackup.git
 ```
 
-### Step 5: Download the packagelists/flatpaks
-
-Download the .txt files and put them onto your home folder, then input the following commmands:
-
-```
-sudo pacman -S --needed - < ~/pacman_list.txt
-```
-
-```
-yay -S --needed - < ~/yay_list.txt
-```
-For flatpak:
+### Step 5: Download programs
 
 Ensure flathub is setup:
 
@@ -44,10 +33,22 @@ Ensure flathub is setup:
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-Install the stuff:
+Pacman:
 
 ```
-xargs -a ~/flatpak_list.txt flatpak install -y flathub
+sudo pacman -S btop cava gnome-disk-utility gnome-keyring gnome-text-editor gparted ntfs-3g openrgb samba steam taskwarrior-tui wine winetricks
+```
+
+Yay:
+
+```
+yay -S qimgv theclicker
+```
+
+Flatpak:
+
+```
+flatpak install app.zen_browser.zen com.discordapp.Discord com.protonvpn.www com.usebottles.bottles md.obsidian.Obsidian org.gnome.Calculator org.kde.kwalletmanager5 org.mozilla.Thunderbird org.prismlauncher.PrismLauncher org.videolan.VLC org.vinegarhq.Sober
 ```
 
 ### Step 6: Reboot and enjoy!
