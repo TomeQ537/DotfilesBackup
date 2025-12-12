@@ -53,7 +53,7 @@ flatpak install app.zen_browser.zen com.discordapp.Discord com.protonvpn.www com
 
 ### Step 6: Reboot and enjoy!
 
-### Extra: Remove sudo asking for password
+### Extra: 
 
 Add this line at the bottom:
 
@@ -64,6 +64,10 @@ sudo nano /etc/sudoers
 ```
 tomeq537 ALL=(ALL) NOPASSWD:ALL
 ```
+
+Zen mods: 
+
+Download BG, SuperPins
 
 ;)
 
