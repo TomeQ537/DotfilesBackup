@@ -20,7 +20,8 @@
       "default": ""
     },
     "persistent-workspaces": {
-                "*": 3
+                "eDP-1": [1,2,3],
+    		"HDMI-A-1": [4,5,6]
     }
   },
 
@@ -77,13 +78,6 @@
     "on-click": "hyprpicker -a",
     "format": "󰈊",
     "tooltip-format": "Color Picker"
-  },
-
-    // To Do list (Made by @tomeq_537)
-  "custom/todo": {
-  "format": "",
-  "tooltip-format": "Tasks",
-  "on-click": "kitty --hold --class TaskwarriorFloating --override \"initial_window_columns=60 initial_window_lines=23\" -e taskwarrior-tui"
   },
 
   // Notes opener
@@ -249,20 +243,20 @@
 
   // CPU
   "cpu": {
-    "format": "/ C {usage}% ",
+    "format": "C: {usage}% ",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
 
   // Memory
   "memory": {
-    "format": "/ M {}% ",
+    "format": "/ M: {}%",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
 
   // Harddisc space used
   "disk": {
     "interval": 30,
-    "format": "D {percentage_used}% ",
+    "format": "/ D: {percentage_used}%  ",
     "path": "/",
     "on-click": "~/.config/ml4w/settings/system-monitor.sh"
   },
@@ -279,7 +273,7 @@
       "children-class": "not-memory",
       "transition-left-to-right": false
     },
-    "modules": ["custom/system", "disk", "cpu", "memory"]
+    "modules": ["custom/system", "cpu", "memory", "disk"]
   },
 
   // Group Tools
@@ -293,7 +287,6 @@
     "modules": [
       "custom/tools",
       "custom/colorpick",
-      "custom/todo",
       "custom/notes",
       "custom/cliphist",
 //      "custom/hypridle",
