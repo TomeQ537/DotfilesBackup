@@ -349,14 +349,6 @@ window#waybar.empty #window {
     font-weight: bold;
     color: @iconcolor;
 }
-
- #custom-todo {
-    margin-right: 12px;
-    margin-bottom: 1px;
-    font-size: 15px;
-    font-weight: bold;
-    color: @iconcolor;
-}
  
  #custom-notes {
     margin-right: 12px;
